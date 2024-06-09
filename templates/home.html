@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Home</title>
+    <style>
+      .testimonial {
+        border: 2px solid #ccc;
+        background-color: #eee;
+        border-radius: 5px;
+        padding: 16px;
+        margin: 16px 0
+      }
+      
+      .testimonial::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .testimonial img {
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+      }
+      
+      .testimonial span {
+        font-size: 20px;
+        margin-right: 15px;
+      }
+      
+      @media (max-width: 500px) {
+        .testimonial {
+            text-align: center;
+        }
+        .testimonial img {
+            margin: auto;
+            float: none;
+            display: block;
+        }
+      }
+      </style>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Wayanad Voyage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/rooms">Packages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/empsign">Vendor' Sign In</a>
+          </li>
+          <br/></ul>
+          <form class="form-inline my-2 my-lg-0 text-left">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="/loginPage">Log In</a></button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="/registerPage">Register</a></button>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <a href="/admin">Admin</a></button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="alert alert-info alert-dismissible fade show mb-0" role="alert">
+        <strong>Hello dear customer!</strong>Embark on a journey through Wayanad, where the mountains whisper secrets and the forests sing tales of ancient beauty.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/static/img1.jpg" class="d-block w-100" style="width:600px;height:610px;" alt="...">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Welcome To  Wayanad</h2>
+                <p class="lead">
+                  Embark on a journey through Wayanad, where the mountains whisper secrets and the forests sing tales of ancient beauty.
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/static/bana.jpg" class="d-block w-100" style="width:600px;height:610px;" alt="...">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Welcome To  Wayanad</h2>
+                <p class="lead">
+                  Discover the untouched beauty and serene landscapes of Wayanad, where every trail leads to a new adventure.
+                  </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/static/ke.jpg" class="d-block w-100" style="width:600px;height:610px;" alt="...">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Welcome To  Wayanad</h2>
+                <p class="lead">
+                  Wayanad, a paradise of lush greenery and tranquil vistas, awaits your exploration and discovery.
+                </p>
+               
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/static/ris.jpeg" class="d-block w-100" style="width:600px;height:610px;" alt="...">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Welcome To  Wayanad</h2>
+                <p class="lead">
+                  Immerse yourself in the natural splendor of Wayanad, where every corner reveals a story of wonder and tranquility
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/static/he.webp" class="d-block w-100" style="width:600px;height:610px;" alt="...">
+            <div class="container">
+              <div class="carousel-caption pb-5 mb-5 text-left">
+                <h2 class="display-4 text-light">Welcome To  Wayanad</h2>
+                <p class="lead">
+                  Embark on a journey through Wayanad, where the mountains whisper secrets and the forests sing tales of ancient beauty.
+                </p>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row py-5 text-center">
+            <div class="col-lg-12 col-md-12">
+              <h3>Wayanad</h3>
+              <p class="lead mt-2">Wayanad, nestled in the Western Ghats of Kerala, is renowned for its lush green landscapes, mist-covered mountains, and abundant wildlife. This enchanting district offers a perfect blend of natural beauty, rich cultural heritage, and adventure, making it an ideal destination for nature lovers and thrill-seekers alike. From trekking through dense forests to exploring ancient caves and cascading waterfalls, Wayanad promises an unforgettable experience for every traveler.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+      <!-- Optional JavaScript; choose one of the two! -->
+      <section id="info" class="py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 justify-content-center text-left infoS">
+              <h3 >Book Your trip Now</h3>
+              <p class="lead">
+                At Wayanad Voyage, we're committed to providing you with an exceptional experience, and we look forward to welcoming you soon. Your comfort and satisfaction are our top priorities, so please feel free to reach out to us with any inquiries or special requests. We can't wait to make your stay memorable.
+              </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 align-self-center">
+              <img src="/static/gif2.gif" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="image">
+          <img src="/static/ww8.jpg" style="width:600px;height:350px;float:left;margin-right:10px">
+        </div>
+        <div class="text">
+          <p vertical-align:"top">
+            <h1>The Moments</h1>
+            Wayanad, nestled in the Western Ghats of Kerala, India, offers an enchanting journey through lush greenery, mist-covered mountains, and pristine rivers. As you embark on your voyage to Wayanad, prepare to be captivated by its rich biodiversity and cultural heritage. The region is dotted with tea and coffee plantations, spice gardens, and wildlife sanctuaries, making it a paradise for nature enthusiasts and adventure seekers alike.
+
+            Exploring the verdant landscapes of Wayanad, you'll encounter breathtaking sights such as the majestic Chembra Peak, the serene Pookode Lake, and the mystical Edakkal Caves, where ancient petroglyphs whisper tales of civilizations past. Immerse yourself in the vibrant culture of the indigenous tribes like the Kurichiyas and Paniyas, who call this land home, and savor the traditional cuisine infused with flavors unique to the region..<br><br><br><br><br>
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="image">
+          <img src="/static/ww9.jpg" style="width:600px;height:350px;float:right;">
+        </div>
+        <div class="text">
+          <p vertical-align:"top">
+            <h1>Inclusions</h1>
+            <ul>
+              <li>Includes breakfast, lunch and dinner at a pre-designated venue</li>
+              <li>Upgrade to the next category of trip</li>
+              <li>15% discount on all trip services</li>
+              <li>Welcome immunity drink on arrival</li>
+              <li>Special turndown amenity once during the stay</li><br><br><br><br><br><br><br>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <section id="gallery" class="py-5" uk-lightbox>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h2 class="mb-0">Photo Gallery</h2>
+              <p class="lead m-0">Click to check out our photos</p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww0.jpg">
+                <img src="/static/ww.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww1.jpg">
+                <img src="/static/ww1.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww2.jpg">
+                <img src="/static/ww2.jpg" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww3.webp">
+                <img src="/static/ww3.webp" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww8.jpg">
+                <img src="/static/ww8.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww6.webp">
+                <img src="/static/ww6.webp" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww11.png">
+                <img src="/static/ww0.jpg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww.jpg">
+                <img src="/static/ww11.png" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <a href="img/ww9.jpg">
+                <img src="/static/ww9.jpg" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+<br/>
+      <center><h2>Testimonials</h2></center>
+      <marquee>
+      <div class="testimonial">
+        <img src="/static/8.jpg" alt="Avatar" style="width:90px">
+        <p><span>Chris Fox.</span> Edinburgh, UK</p>
+        <p>Good place, nice ambience, in the vicinity of some quiet and beautiful spots of Wayanad.<br>Decent views.Less Tariff. Food was awesome.</p>
+      </div>
+      <div class="testimonial">
+        <img src="/static/9.jpg" alt="Avatar" style="width:90px">
+        <p><span>Rebecca Flex.</span> Barcelona, Spain</p>
+        <p>One of the best trip guides i have see at in terms of Locations, Service and stay.</p>
+      </div>
+      <div class="testimonial">
+        <img src="/static/10.jpg" alt="Avatar" style="width:90px">
+        <p><span>Marie Li Hui.</span> Seoul, South Korea</p>
+        <p>The best place I have visited in India,Great place and great people managing it.</p>
+      </div>
+      <div class="testimonial">
+        <img src="/static/11.jpg" alt="Avatar" style="width:90px">
+        <p><span>Ananth V. K.</span> Bangaluru, Karnataka</p>
+        <p>I went there on family holiday. Enjoyed our stay there.,<br>food was awesome. Luxury stay. It was a wonderful experience.</p>
+      </div>
+    </marquee>
+    <div class="testimonial text-center">
+      <p><span>The vivek, Wayanad</span> © The vivek wayanad 2022. All Rights Reserved.</p>
+      <p><h3>Follow Us</h3></p>
+      <div class="d-flex flex-row justify-content-center">
+      <img src="/static/12.jpg" alt="Avatar" style="width:200px">
+      </div>
+    </div>
+
+<!-- team -->
+
+<!-- //team -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
